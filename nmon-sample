@@ -1,0 +1,1072 @@
+AAA,progname,topas_nmon
+AAA,command,/usr/bin/topas_nmon -f -t -s1 -c1 -m/var/tmp -youtput_dir=/var/tmp/lpar1 -ystart_time=14:45:12,Mar22,2018 
+AAA,version,TOPAS-NMON
+AAA,build,AIX
+AAA,disks_per_line,150
+AAA,host,lpar1
+AAA,user,root
+AAA,AIX,6.1.8.15
+AAA,TL,08
+AAA,runname,lpar1
+AAA,time,14:45:13
+AAA,date,22-MAR-2018
+AAA,interval,1
+AAA,snapshots,1
+AAA,hardware,Architecture PowerPC Implementation POWER7_COMPAT_mode 64 bit
+AAA,cpus,8,8
+AAA,kernel, HW-type=CHRP=Common H/W Reference Platform Bus=PCI LPAR=Dynamic Multi-Processor 64 bit
+AAA,SerialNumber,841FE3W
+AAA,LPARNumberName,3,lpar1
+AAA,MachineType,IBM,8202-E4D
+AAA,NodeName,lpar1
+AAA,timestampsize,0
+AAA,note0, Warning - use the UNIX sort command to order this file before loading into a spreadsheet
+AAA,note1, The First Column is simply to get the output sorted in the right order
+AAA,note2, The T0001-T9999 column is a snapshot number. To work out the actual time; see the ZZZ section at the end
+BBBB,0000,name,size(GB),disc attach type
+BBBB,0001,hdisk0,102.27,Other FC SCSI
+BBBC,000,hdisk0:
+BBBC,001,LV NAME               LPs     PPs     DISTRIBUTION          MOUNT POINT
+BBBC,002,hd6                   4       4       00..04..00..00..00    N/A
+BBBC,003,hd8                   1       1       00..00..01..00..00    N/A
+BBBC,004,hd4                   2       2       00..00..02..00..00    /
+BBBC,005,hd2                   20      20      00..00..20..00..00    /usr
+BBBC,006,hd9var                5       5       00..00..05..00..00    /var
+BBBC,007,hd3                   1       1       00..00..01..00..00    /tmp
+BBBC,008,hd1                   1       1       00..00..01..00..00    /home
+BBBC,009,hd10opt               40      40      00..00..40..00..00    /opt
+BBBC,010,livedump              2       2       00..02..00..00..00    /var/adm/ras/livedump
+BBBC,011,hd11admin             1       1       00..00..01..00..00    /admin
+BBBC,012,hd5                   1       1       01..00..00..00..00    N/A
+BBBB,0002,hdisk5,unknown,Other FC SCSI
+BBBB,0003,hdisk4,unknown,Other FC SCSI
+BBBB,0004,hdisk3,unknown,Other FC SCSI
+BBBB,0005,hdisk1,unknown,Other FC SCSI
+BBBC,013,hdisk0          00fa1fe3308490a8                    rootvg          active      
+BBBC,014,hdisk1          00fa1fe3558e8a59                    None                        
+BBBC,015,hdisk3          00fa1fe3558e8a59                    None                        
+BBBC,016,hdisk4          00fa1fe33d42db7a                    None                        
+BBBC,017,hdisk5          00fa1fe33d42db7a                    None                        
+BBBV,000,VOLUME GROUP:       rootvg                   VG IDENTIFIER:  00fa1fe300004c000000016230849116
+BBBV,001,VG STATE:           active                   PP SIZE:        128 megabyte(s)
+BBBV,002,VG PERMISSION:      read/write               TOTAL PPs:      799 (102272 megabytes)
+BBBV,003,MAX LVs:            256                      FREE PPs:       721 (92288 megabytes)
+BBBV,004,LVs:                11                       USED PPs:       78 (9984 megabytes)
+BBBV,005,OPEN LVs:           10                       QUORUM:         2 (Enabled)
+BBBV,006,TOTAL PVs:          1                        VG DESCRIPTORS: 2
+BBBV,007,STALE PVs:          0                        STALE PPs:      0
+BBBV,008,ACTIVE PVs:         1                        AUTO ON:        yes
+BBBV,009,MAX PPs per VG:     32512                                     
+BBBV,010,MAX PPs per PV:     1016                     MAX PVs:        32
+BBBV,011,LTG size (Dynamic): 256 kilobyte(s)          AUTO SYNC:      no
+BBBV,012,HOT SPARE:          no                       BB POLICY:      relocatable 
+BBBV,013,PV RESTRICTION:     none                     INFINITE RETRY: no
+CPU_ALL,CPU Total lpar1,User%,Sys%,Wait%,Idle%,Busy,PhysicalCPUs 
+PCPU_ALL,PCPU Total lpar1,User  ,Sys  ,Wait  ,Idle  , Entitled Capacity 
+SCPU_ALL,SCPU Total lpar1,User  ,Sys  ,Wait  ,Idle   
+CPU01,CPU 1 lpar1,User%,Sys%,Wait%,Idle% 
+CPU02,CPU 2 lpar1,User%,Sys%,Wait%,Idle% 
+CPU03,CPU 3 lpar1,User%,Sys%,Wait%,Idle% 
+CPU04,CPU 4 lpar1,User%,Sys%,Wait%,Idle% 
+CPU05,CPU 5 lpar1,User%,Sys%,Wait%,Idle% 
+CPU06,CPU 6 lpar1,User%,Sys%,Wait%,Idle% 
+CPU07,CPU 7 lpar1,User%,Sys%,Wait%,Idle% 
+CPU08,CPU 8 lpar1,User%,Sys%,Wait%,Idle% 
+PCPU01,PCPU 1 lpar1,User ,Sys ,Wait ,Idle 
+PCPU02,PCPU 2 lpar1,User ,Sys ,Wait ,Idle 
+PCPU03,PCPU 3 lpar1,User ,Sys ,Wait ,Idle 
+PCPU04,PCPU 4 lpar1,User ,Sys ,Wait ,Idle 
+PCPU05,PCPU 5 lpar1,User ,Sys ,Wait ,Idle 
+PCPU06,PCPU 6 lpar1,User ,Sys ,Wait ,Idle 
+PCPU07,PCPU 7 lpar1,User ,Sys ,Wait ,Idle 
+PCPU08,PCPU 8 lpar1,User ,Sys ,Wait ,Idle 
+SCPU01,SCPU 1 lpar1,User ,Sys ,Wait ,Idle 
+SCPU02,SCPU 2 lpar1,User ,Sys ,Wait ,Idle 
+SCPU03,SCPU 3 lpar1,User ,Sys ,Wait ,Idle 
+SCPU04,SCPU 4 lpar1,User ,Sys ,Wait ,Idle 
+SCPU05,SCPU 5 lpar1,User ,Sys ,Wait ,Idle 
+SCPU06,SCPU 6 lpar1,User ,Sys ,Wait ,Idle 
+SCPU07,SCPU 7 lpar1,User ,Sys ,Wait ,Idle 
+SCPU08,SCPU 8 lpar1,User ,Sys ,Wait ,Idle 
+MEM,Memory lpar1,Real Free %,Virtual free %,Real free(MB),Virtual free(MB),Real total(MB),Virtual total(MB)
+MEMNEW,Memory New lpar1,Process%,FScache%,System%,Free%,Pinned%,User%
+MEMUSE,Memory Use lpar1,%numperm,%minperm,%maxperm,minfree,maxfree,%numclient,%maxclient, lruable pages
+PAGE,Paging lpar1,faults,pgin,pgout,pgsin,pgsout,reclaims,scans,cycles
+PROC,Processes lpar1,Runnable,Swap-in,pswitch,syscall,read,write,fork,exec,sem,msg,asleep_bufio,asleep_rawio,asleep_diocio
+FILE,File I/O lpar1,iget,namei,dirblk,readch,writech,ttyrawch,ttycanch,ttyoutch
+BBBN,000,NetworkName,MTU,Mbits,Name
+BBBN,001,en0,1500,1024,Standard Ethernet Network Interface
+BBBN,002,lo0,16896,0,Loopback Network Interface
+NET,Network I/O lpar1,en0-read-KB/s,lo0-read-KB/s,en0-write-KB/s,lo0-write-KB/s
+NETPACKET,Network Packets lpar1,en0-reads/s,lo0-reads/s,en0-writes/s,lo0-writes/s
+NETSIZE,Network Size lpar1,en0-readsize,lo0-readsize,en0-writesize,lo0-writesize
+NETERROR,Network Errors lpar1,en0-ierrs,lo0-ierrs,en0-oerrs,lo0-oerrs,en0-collisions,lo0-collisions
+DISKBUSY,Disk %Busy lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKREAD,Disk Read KB/s lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKWRITE,Disk Write KB/s lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKXFER,Disk transfers per second lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKRXFER,Transfers from disk (reads) per second lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKBSIZE,Disk Block Size lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKRIO,Disk IO Reads per second lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKWIO,Disk IO Writes per second lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKAVGRIO,Disk IO Average Reads per second lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+DISKAVGWIO,Disk IO Average Writes per second lpar1,hdisk0,hdisk5,hdisk4,hdisk3,hdisk1
+IOADAPT,Disk Adapter lpar1,fcs0_read-KB/s,fcs0_write-KB/s,fcs0_xfer-tps
+BBBD,000,Disk Adapter Information lpar1
+BBBD,001,Adapter_number,Name,Disks, Description
+BBBD,002,0,"fcs0",5,"8Gb PCI Express Dual Port FC Adapter (df1000f114108a03)"
+BBBL,01,lparno,3
+BBBL,02,lparname,lpar1
+BBBL,03,CPU in sys,8
+BBBL,04,Virtual CPU,2
+BBBL,05,Logical CPU,8
+BBBL,06,smt threads,4
+BBBL,07,capped,0
+BBBL,08,min Virtual,1
+BBBL,09,max Virtual,2
+BBBL,10,min Logical,1
+BBBL,11,max Logical,8
+BBBL,12,min Capacity,1.0  
+BBBL,13,max Capacity,2.0  
+BBBL,14,Entitled Capacity,1.0  
+BBBL,15,min Memory MB,1024
+BBBL,16,max Memory MB,2048
+BBBL,17,online Memory,1024
+BBBL,18,Pool CPU,6
+BBBL,19,Weight,0
+BBBL,20,pool id,0
+LPAR,Logical Partition lpar1,PhysicalCPU,virtualCPUs,logicalCPUs,poolCPUs,entitled,weight,PoolIdle,usedAllCPU%,usedPoolCPU%,SharedCPU,Capped,EC_User%,EC_Sys%,EC_Wait%,EC_Idle%,VP_User%,VP_Sys%,VP_Wait%,VP_Idle%,Folded,Pool_id
+POOLS,Multiple CPU Pools lpar1,shcpus_in_sys,max_pool_capacity,entitled_pool_capacity,pool_max_time,pool_busy_time,shcpu_tot_time,shcpu_busy_time,Pool_id,entitled
+JFSFILE,JFS Filespace %Used lpar1,/,/home,/usr,/var,/tmp,/admin,/opt,/var/adm/ras/livedump
+JFSINODE,JFS Inode %Used lpar1,/,/home,/usr,/var,/tmp,/admin,/opt,/var/adm/ras/livedump
+TOP,%CPU Utilisation
+TOP,+PID,Time,%CPU,%Usr,%Sys,Threads,Size,ResText,ResData,CharIO,%RAM,Paging,Command,WLMclass
+BBBP,000,uptime
+BBBP,001,uptime,"  02:45PM   up 2 days,   3:19,  1 user,  load average: 0.14, 0.20, 0.10"
+BBBP,002,lsconf
+BBBP,003,lsconf,"System Model: IBM,8202-E4D"
+BBBP,004,lsconf,"Machine Serial Number: 841FE3W"
+BBBP,005,lsconf,"Processor Type: PowerPC_POWER7"
+BBBP,006,lsconf,"Processor Implementation Mode: POWER 7"
+BBBP,007,lsconf,"Processor Version: PV_7_Compat"
+BBBP,008,lsconf,"Number Of Processors: 2"
+BBBP,009,lsconf,"Processor Clock Speed: 3612 MHz"
+BBBP,010,lsconf,"CPU Type: 64-bit"
+BBBP,011,lsconf,"Kernel Type: 64-bit"
+BBBP,012,lsconf,"LPAR Info: 3 lpar1"
+BBBP,013,lsconf,"Memory Size: 1024 MB"
+BBBP,014,lsconf,"Good Memory Size: 1024 MB"
+BBBP,015,lsconf,"Platform Firmware level: AL770_109"
+BBBP,016,lsconf,"Firmware Version: IBM,AL770_109"
+BBBP,017,lsconf,"Console Login: enable"
+BBBP,018,lsconf,"Auto Restart: true"
+BBBP,019,lsconf,"Full Core: false"
+BBBP,020,lsconf,"NX Crypto Acceleration: Capable and Enabled"
+BBBP,021,lsconf," "
+BBBP,022,lsconf,"Network Information"
+BBBP,023,lsconf,"	Host Name: lpar1"
+BBBP,024,lsconf,"	IP Address: 192.168.70.7"
+BBBP,025,lsconf,"	Sub Netmask: 255.255.255.224"
+BBBP,026,lsconf,"	Gateway: 192.168.70.30"
+BBBP,027,lsconf,"	Name Server: "
+BBBP,028,lsconf,"	Domain Name: "
+BBBP,029,lsconf," "
+BBBP,030,lsconf,"Paging Space Information"
+BBBP,031,lsconf,"	Total Paging Space: 512MB"
+BBBP,032,lsconf,"	Percent Used: 10%"
+BBBP,033,lsconf," "
+BBBP,034,lsconf,"Volume Groups Information"
+BBBP,035,lsconf,"e============================================================================= "
+BBBP,036,lsconf,"Active VGs"
+BBBP,037,lsconf,"e============================================================================= "
+BBBP,038,lsconf,"rootvg:"
+BBBP,039,lsconf,"PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION"
+BBBP,040,lsconf,"hdisk0            active            799         721         159..154..88..160..160"
+BBBP,041,lsconf,"e============================================================================= "
+BBBP,042,lsconf," "
+BBBP,043,lsconf,"INSTALLED RESOURCE LIST"
+BBBP,044,lsconf,""
+BBBP,045,lsconf,"The following resources are installed on the machine."
+BBBP,046,lsconf,"p/- = Added or deleted from Resource List."
+BBBP,047,lsconf,"m   = Diagnostic support not available."
+BBBP,048,lsconf,"	"
+BBBP,049,lsconf,"  Model Architecture: chrp"
+BBBP,050,lsconf,"  Model Implementation: Multiple Processor, PCI bus"
+BBBP,051,lsconf,"	"
+BBBP,052,lsconf,"p sys0                                                                          System Object"
+BBBP,053,lsconf,"p sysplanar0                                                                    System Planar"
+BBBP,054,lsconf,"m vio0                                                                          Virtual I/O Bus"
+BBBP,055,lsconf,"m vsa0             U8202.E4D.841FE3W-V3-C0                                      LPAR Virtual Serial Adapter"
+BBBP,056,lsconf,"m vty0             U8202.E4D.841FE3W-V3-C0-L0                                   Asynchronous Terminal"
+BBBP,057,lsconf,"m pci1             U78AA.001.WZSL6G3-P1                                         PCI Express Bus"
+BBBP,058,lsconf,"p fcs0             U78AA.001.WZSL6G3-P1-C3-T1                                   8Gb PCI Express Dual Port FC Adapter (df1000f114108a03)"
+BBBP,059,lsconf,"m fcnet0           U78AA.001.WZSL6G3-P1-C3-T1                                   Fibre Channel Network Protocol Device"
+BBBP,060,lsconf,"p fscsi0           U78AA.001.WZSL6G3-P1-C3-T1                                   FC SCSI I/O Controller Protocol Device"
+BBBP,061,lsconf,"m hdisk5           U78AA.001.WZSL6G3-P1-C3-T1-W20804482E5A35310-L2000000000000  Other FC SCSI Disk Drive"
+BBBP,062,lsconf,"m sfwcomm0         U78AA.001.WZSL6G3-P1-C3-T1-W0-L0                             Fibre Channel Storage Framework Comm"
+BBBP,063,lsconf,"m hdisk0           U78AA.001.WZSL6G3-P1-C3-T1-W2080745AAAE400E4-L1000000000000  Other FC SCSI Disk Drive"
+BBBP,064,lsconf,"m hdisk1           U78AA.001.WZSL6G3-P1-C3-T1-W20804482E5A35310-L1000000000000  Other FC SCSI Disk Drive"
+BBBP,065,lsconf,"m hdisk3           U78AA.001.WZSL6G3-P1-C3-T1-W20904482E5A35310-L1000000000000  Other FC SCSI Disk Drive"
+BBBP,066,lsconf,"m hdisk4           U78AA.001.WZSL6G3-P1-C3-T1-W20904482E5A35310-L2000000000000  Other FC SCSI Disk Drive"
+BBBP,067,lsconf,"p fcs1             U78AA.001.WZSL6G3-P1-C3-T2                                   8Gb PCI Express Dual Port FC Adapter (df1000f114108a03)"
+BBBP,068,lsconf,"m fcnet1           U78AA.001.WZSL6G3-P1-C3-T2                                   Fibre Channel Network Protocol Device"
+BBBP,069,lsconf,"p fscsi1           U78AA.001.WZSL6G3-P1-C3-T2                                   FC SCSI I/O Controller Protocol Device"
+BBBP,070,lsconf,"m sfwcomm1         U78AA.001.WZSL6G3-P1-C3-T2-W0-L0                             Fibre Channel Storage Framework Comm"
+BBBP,071,lsconf,"m pci0             U78AA.001.WZSL6G3-P1                                         PCI Express Bus"
+BBBP,072,lsconf,"p ent0             U78AA.001.WZSL6G3-P1-C7-T1                                   4-Port Gigabit Ethernet PCI-Express Adapter (e414571614102004)"
+BBBP,073,lsconf,"p ent1             U78AA.001.WZSL6G3-P1-C7-T2                                   4-Port Gigabit Ethernet PCI-Express Adapter (e414571614102004)"
+BBBP,074,lsconf,"p ent2             U78AA.001.WZSL6G3-P1-C7-T3                                   4-Port Gigabit Ethernet PCI-Express Adapter (e414571614102004)"
+BBBP,075,lsconf,"p ent3             U78AA.001.WZSL6G3-P1-C7-T4                                   4-Port Gigabit Ethernet PCI-Express Adapter (e414571614102004)"
+BBBP,076,lsconf,"p L2cache0                                                                      L2 Cache"
+BBBP,077,lsconf,"p mem0                                                                          Memory"
+BBBP,078,lsconf,"p proc0                                                                         Processor"
+BBBP,079,lsconf,"p proc4                                                                         Processor"
+BBBP,080,lsps -a
+BBBP,081,lsps -a,"Page Space      Physical Volume   Volume Group    Size %Used Active Auto  Type Chksum"
+BBBP,082,lsps -a,"hd6             hdisk0            rootvg         512MB    10   yes   yes    lv     0"
+BBBP,083,lparstat -i
+BBBP,084,lparstat -i,"Node Name                                  : lpar1"
+BBBP,085,lparstat -i,"Partition Name                             : lpar1"
+BBBP,086,lparstat -i,"Partition Number                           : 3"
+BBBP,087,lparstat -i,"Type                                       : Shared-SMT-4"
+BBBP,088,lparstat -i,"Mode                                       : Uncapped"
+BBBP,089,lparstat -i,"Entitled Capacity                          : 1.00"
+BBBP,090,lparstat -i,"Partition Group-ID                         : 32771"
+BBBP,091,lparstat -i,"Shared Pool ID                             : 0"
+BBBP,092,lparstat -i,"Online Virtual CPUs                        : 2"
+BBBP,093,lparstat -i,"Maximum Virtual CPUs                       : 2"
+BBBP,094,lparstat -i,"Minimum Virtual CPUs                       : 1"
+BBBP,095,lparstat -i,"Online Memory                              : 1024 MB"
+BBBP,096,lparstat -i,"Maximum Memory                             : 2048 MB"
+BBBP,097,lparstat -i,"Minimum Memory                             : 1024 MB"
+BBBP,098,lparstat -i,"Variable Capacity Weight                   : 0"
+BBBP,099,lparstat -i,"Minimum Capacity                           : 1.00"
+BBBP,100,lparstat -i,"Maximum Capacity                           : 2.00"
+BBBP,101,lparstat -i,"Capacity Increment                         : 0.01"
+BBBP,102,lparstat -i,"Maximum Physical CPUs in system            : 8"
+BBBP,103,lparstat -i,"Active Physical CPUs in system             : 8"
+BBBP,104,lparstat -i,"Active CPUs in Pool                        : 6"
+BBBP,105,lparstat -i,"Shared Physical CPUs in system             : 6"
+BBBP,106,lparstat -i,"Maximum Capacity of Pool                   : 600"
+BBBP,107,lparstat -i,"Entitled Capacity of Pool                  : 400"
+BBBP,108,lparstat -i,"Unallocated Capacity                       : 0.00"
+BBBP,109,lparstat -i,"Physical CPU Percentage                    : 50.00%"
+BBBP,110,lparstat -i,"Unallocated Weight                         : 0"
+BBBP,111,lparstat -i,"Memory Mode                                : Dedicated"
+BBBP,112,lparstat -i,"Total I/O Memory Entitlement               : -"
+BBBP,113,lparstat -i,"Variable Memory Capacity Weight            : -"
+BBBP,114,lparstat -i,"Memory Pool ID                             : -"
+BBBP,115,lparstat -i,"Physical Memory in the Pool                : -"
+BBBP,116,lparstat -i,"Hypervisor Page Size                       : -"
+BBBP,117,lparstat -i,"Unallocated Variable Memory Capacity Weight: -"
+BBBP,118,lparstat -i,"Unallocated I/O Memory entitlement         : -"
+BBBP,119,lparstat -i,"Memory Group ID of LPAR                    : -"
+BBBP,120,lparstat -i,"Desired Virtual CPUs                       : 2"
+BBBP,121,lparstat -i,"Desired Memory                             : 1024 MB"
+BBBP,122,lparstat -i,"Desired Variable Capacity Weight           : 0"
+BBBP,123,lparstat -i,"Desired Capacity                           : 1.00"
+BBBP,124,lparstat -i,"Target Memory Expansion Factor             : -"
+BBBP,125,lparstat -i,"Target Memory Expansion Size               : -"
+BBBP,126,lparstat -i,"Power Saving Mode                          : Disabled"
+BBBP,127,lparstat -H
+BBBP,128,lparstat -H,""
+BBBP,129,lparstat -H,"System configuration: type=Shared mode=Uncapped smt=4 lcpu=8 mem=1024MB psize=6 ent=1.00 "
+BBBP,130,lparstat -H,""
+BBBP,131,lparstat -H,"           Detailed information on Hypervisor Calls"
+BBBP,132,lparstat -H,""
+BBBP,133,lparstat -H,"Hypervisor        Number of    %Total Time   %Hypervisor   Avg Call    Max Call"
+BBBP,134,lparstat -H,"  Call              Calls         Spent      Time Spent    Time(ns)    Time(ns)"
+BBBP,135,lparstat -H,""
+BBBP,136,lparstat -H,"remove                   23            0.0           0.3        500         750"
+BBBP,137,lparstat -H,"read                     13            0.0           0.0        134         187"
+BBBP,138,lparstat -H,"nclear_mod                0            0.0           0.0          0           0"
+BBBP,139,lparstat -H,"page_init                71            0.0           0.7        419         781"
+BBBP,140,lparstat -H,"clear_ref                 0            0.0           0.0          0           0"
+BBBP,141,lparstat -H,"protect                   0            0.0           0.0          0           0"
+BBBP,142,lparstat -H,"put_tce                  13            0.0           0.1        338         468"
+BBBP,143,lparstat -H,"xirr                      0            0.0           0.0          0           0"
+BBBP,144,lparstat -H,"eoi                      11            0.0           0.1        301         437"
+BBBP,145,lparstat -H,"ipi                       0            0.0           0.0          0           0"
+BBBP,146,lparstat -H,"cppr                      0            0.0           0.0          0           0"
+BBBP,147,lparstat -H,"asr                       0            0.0           0.0          0           0"
+BBBP,148,lparstat -H,"others                  401            0.0           0.9         92         250"
+BBBP,149,lparstat -H,"enter                   108            0.0           0.7        272         531"
+BBBP,150,lparstat -H,"cede                     27            0.0          96.8     146536     1201937"
+BBBP,151,lparstat -H,"migrate_dma               0            0.0           0.0          0           0"
+BBBP,152,lparstat -H,"put_rtce                  0            0.0           0.0          0           0"
+BBBP,153,lparstat -H,"confer                    0            0.0           0.0          0           0"
+BBBP,154,lparstat -H,"prod                     11            0.0           0.1        536        1125"
+BBBP,155,lparstat -H,"get_ppp                   3            0.0           0.1        781         937"
+BBBP,156,lparstat -H,"set_ppp                   0            0.0           0.0          0           0"
+BBBP,157,lparstat -H,"purr                      0            0.0           0.0          0           0"
+BBBP,158,lparstat -H,"pic                       3            0.0           0.0        156         187"
+BBBP,159,lparstat -H,"bulk_remove               0            0.0           0.0          0           0"
+BBBP,160,lparstat -H,"send_crq                  0            0.0           0.0          0           0"
+BBBP,161,lparstat -H,"copy_rdma                 0            0.0           0.0          0           0"
+BBBP,162,lparstat -H,"get_tce                   0            0.0           0.0          0           0"
+BBBP,163,lparstat -H,"send_logical_lan          0            0.0           0.0          0           0"
+BBBP,164,lparstat -H,"add_logicl_lan_buf        0            0.0           0.0          0           0"
+BBBP,165,lparstat -H,"h_remove_rtce             0            0.0           0.0          0           0"
+BBBP,166,lparstat -H,"h_ipoll                   0            0.0           0.0          0           0"
+BBBP,167,lparstat -H,"h_stuff_tce              11            0.0           0.1        255         343"
+BBBP,168,lparstat -H,"h_get_mpp                 0            0.0           0.0          0           0"
+BBBP,169,lparstat -H,"h_set_mpp                 0            0.0           0.0          0           0"
+BBBP,170,lparstat -H,"h_get_mpp_x               0            0.0           0.0          0           0"
+BBBP,171,lparstat -H,"h_get_em_parms            3            0.0           0.0        177         218"
+BBBP,172,lparstat -H,"h_vpm_pstat               0            0.0           0.0          0           0"
+BBBP,173,lparstat -H,"h_hfi_start_interface        0            0.0           0.0          0           0"
+BBBP,174,lparstat -H,"h_hfi_stop_interface        0            0.0           0.0          0           0"
+BBBP,175,lparstat -H,"h_hfi_query_interface        0            0.0           0.0          0           0"
+BBBP,176,lparstat -H,"h_hfi_query_window        0            0.0           0.0          0           0"
+BBBP,177,lparstat -H,"h_hfi_open_window         0            0.0           0.0          0           0"
+BBBP,178,lparstat -H,"h_hfi_close_window        0            0.0           0.0          0           0"
+BBBP,179,lparstat -H,"h_hfi_dump_info           0            0.0           0.0          0           0"
+BBBP,180,lparstat -H,"h_hfi_adapter_attach        0            0.0           0.0          0           0"
+BBBP,181,lparstat -H,"h_hfi_modify_rcxt         0            0.0           0.0          0           0"
+BBBP,182,lparstat -H,"h_hfi_route_info          0            0.0           0.0          0           0"
+BBBP,183,lparstat -H,"h_cau_write_index         0            0.0           0.0          0           0"
+BBBP,184,lparstat -H,"h_cau_read_index          0            0.0           0.0          0           0"
+BBBP,185,lparstat -H,"h_nmmu_start              0            0.0           0.0          0           0"
+BBBP,186,lparstat -H,"h_nmmu_stop               0            0.0           0.0          0           0"
+BBBP,187,lparstat -H,"h_nmmu_allocate_resource        0            0.0           0.0          0           0"
+BBBP,188,lparstat -H,"h_nmmu_free_resource        0            0.0           0.0          0           0"
+BBBP,189,lparstat -H,"h_nmmu_modify_resource        0            0.0           0.0          0           0"
+BBBP,190,lparstat -H,"h_confer_adjunct          0            0.0           0.0          0           0"
+BBBP,191,lparstat -H,"h_adjunct_mode            0            0.0           0.0          0           0"
+BBBP,192,lparstat -H,"h_get_ppp_x               0            0.0           0.0          0           0"
+BBBP,193,lparstat -H,"h_cop_op                  0            0.0           0.0          0           0"
+BBBP,194,lparstat -H,"h_stop_cop_op             0            0.0           0.0          0           0"
+BBBP,195,lparstat -H,"h_random                  0            0.0           0.0          0           0"
+BBBP,196,lparstat -H,"h_enter_decomp            0            0.0           0.0          0           0"
+BBBP,197,lparstat -H,"h_remove_comp             0            0.0           0.0          0           0"
+BBBP,198,lparstat -H,"h_put_tce_indirect        0            0.0           0.0          0           0"
+BBBP,199,lparstat -H,"n-------------------------------------------------------------------------------"
+BBBP,200,emstat
+BBBP,201,emstat,""
+BBBP,202,emstat,"  Alignment  Alignment  Emulation  Emulation"
+BBBP,203,emstat,"  SinceBoot      Delta  SinceBoot      Delta"
+BBBP,204,emstat,"       1079          0          0          0"
+BBBP,205,emstat,"       1079          0          0          0"
+BBBP,206,mpstat -d
+BBBP,207,mpstat -d,""
+BBBP,208,mpstat -d,"System configuration: lcpu=8 ent=1.0 mode=Uncapped "
+BBBP,209,mpstat -d,""
+BBBP,210,mpstat -d,"cpu     cs    ics  bound     rq   push S3pull  S3grd  S0rd  S1rd  S2rd  S3rd  S4rd  S5rd   ilcs   vlcs S3hrd S4hrd S5hrd"
+BBBP,211,mpstat -d,"cpu     cs    ics  bound     rq   push S3pull  S3grd  S0rd  S1rd  S2rd  S3rd  S4rd  S5rd   ilcs   vlcs S3hrd S4hrd S5hrd  %nsp"
+BBBP,212,mpstat -d,"  0 16812970 208374      1      1      0      0      0  99.9   0.0   0.0   0.1   0.0   0.0  22212 24505999 100.0   0.0   0.0   101"
+BBBP,213,mpstat -d,"  1  51150  22890      0      0      0      0      0  62.0  38.0   0.0   0.0   0.0   0.0    583 1981999 100.0   0.0   0.0   101"
+BBBP,214,mpstat -d,"  2  18520  18482      0      0      0      0      0   0.1  99.9   0.0   0.0   0.0   0.0     23 1954639 100.0   0.0   0.0   101"
+BBBP,215,mpstat -d,"  3  18898  18529      0      0      0      0      0   2.1  97.9   0.0   0.0   0.0   0.0     26 1954901 100.0   0.0   0.0   101"
+BBBP,216,mpstat -d,"  4  58202  23154      0      0      0      0      0  68.3   0.4   0.0  31.3   0.0   0.0   2019 3340275 100.0   0.0   0.0   101"
+BBBP,217,mpstat -d,"  5  25960  19325      0      0      0      0      0  29.3  70.7   0.0   0.0   0.0   0.0  57219  13914 100.0   0.0   0.0   101"
+BBBP,218,mpstat -d,"  6  18488  18478      0      0      0      0      0   0.1  99.9   0.0   0.0   0.0   0.0  56450   7352 100.0   0.0   0.0   101"
+BBBP,219,mpstat -d,"  7  18488  18477      0      0      0      0      0   0.1  99.9   0.0   0.0   0.0   0.0  56362   7547 100.0   0.0   0.0   101"
+BBBP,220,mpstat -d,"ALL 17022676 347709      1      1      0      0      0  99.2   0.6   0.0   0.2   0.0   0.0 194894 33766626 100.0   0.0   0.0   101"
+BBBP,221,lssrad
+BBBP,222,lssrad,"REF1   SRAD        MEM      CPU"
+BBBP,223,lssrad,"0"
+BBBP,224,lssrad,"          0     974.88      0-7"
+BBBP,225,vmo -L
+BBBP,226,vmo -L,"NAME                      CUR    DEF    BOOT   MIN    MAX    UNIT           TYPE"
+BBBP,227,vmo -L,"     DEPENDENCIES"
+BBBP,228,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,229,vmo -L,"ame_cpus_per_pool         n/a    8      8      1      1K     processors        B"
+BBBP,230,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,231,vmo -L,"ame_maxfree_mem           n/a    24M    24M    320K   1G     bytes             D"
+BBBP,232,vmo -L,"     ame_minfree_mem"
+BBBP,233,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,234,vmo -L,"ame_min_ucpool_size       n/a    0      0      5      95     % memory          D"
+BBBP,235,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,236,vmo -L,"ame_minfree_mem           n/a    8M     8M     64K    1023M  bytes             D"
+BBBP,237,vmo -L,"     ame_maxfree_mem"
+BBBP,238,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,239,vmo -L,"ams_loan_policy           n/a    1      1      0      2      numeric           D"
+BBBP,240,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,241,vmo -L,"enhanced_affinity_affin_time"
+BBBP,242,vmo -L,"                          1      1      1      0      100    numeric           D"
+BBBP,243,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,244,vmo -L,"enhanced_affinity_vmpool_limit"
+BBBP,245,vmo -L,"                          10     10     10     -1     100    numeric           D"
+BBBP,246,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,247,vmo -L,"esid_allocator            0      0      0      0      1      boolean           D"
+BBBP,248,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,249,vmo -L,"force_relalias_lite       0      0      0      0      1      boolean           D"
+BBBP,250,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,251,vmo -L,"kernel_heap_psize         64K    0      0      0      16M    bytes             B"
+BBBP,252,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,253,vmo -L,"lgpg_regions              0      0      0      0      8E-1                     D"
+BBBP,254,vmo -L,"     lgpg_size"
+BBBP,255,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,256,vmo -L,"lgpg_size                 0      0      0      0      16M    bytes             D"
+BBBP,257,vmo -L,"     lgpg_regions"
+BBBP,258,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,259,vmo -L,"low_ps_handling           1      1      1      1      2                        D"
+BBBP,260,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,261,vmo -L,"maxfree                   1088   1088   1088   16     209715 4KB pages         D"
+BBBP,262,vmo -L,"     minfree"
+BBBP,263,vmo -L,"     memory_frames"
+BBBP,264,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,265,vmo -L,"maxperm                   217526        217526                                 S"
+BBBP,266,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,267,vmo -L,"maxpin                    212231        212231                                 S"
+BBBP,268,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,269,vmo -L,"maxpin%                   80     80     80     1      100    % memory          D"
+BBBP,270,vmo -L,"     pinnable_frames"
+BBBP,271,vmo -L,"     memory_frames"
+BBBP,272,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,273,vmo -L,"memory_frames             256K          256K                 4KB pages         S"
+BBBP,274,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,275,vmo -L,"memplace_data             0      0      0      0      2                        D"
+BBBP,276,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,277,vmo -L,"memplace_mapped_file      0      0      0      0      2                        D"
+BBBP,278,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,279,vmo -L,"memplace_shm_anonymous    0      0      0      0      2                        D"
+BBBP,280,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,281,vmo -L,"memplace_shm_named        0      0      0      0      2                        D"
+BBBP,282,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,283,vmo -L,"memplace_stack            0      0      0      0      2                        D"
+BBBP,284,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,285,vmo -L,"memplace_text             0      0      0      0      2                        D"
+BBBP,286,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,287,vmo -L,"memplace_unmapped_file    0      0      0      0      2                        D"
+BBBP,288,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,289,vmo -L,"minfree                   960    960    960    8      209715 4KB pages         D"
+BBBP,290,vmo -L,"     maxfree"
+BBBP,291,vmo -L,"     memory_frames"
+BBBP,292,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,293,vmo -L,"minperm                   7250          7250                                   S"
+BBBP,294,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,295,vmo -L,"minperm%                  3      3      3      1      100    % memory          D"
+BBBP,296,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,297,vmo -L,"nokilluid                 0      0      0      0      4G-1   uid               D"
+BBBP,298,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,299,vmo -L,"npskill                   1K     1K     1K     1      128K-1 4KB pages         D"
+BBBP,300,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,301,vmo -L,"npswarn                   4K     4K     4K     1      128K-1 4KB pages         D"
+BBBP,302,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,303,vmo -L,"num_locks_per_semid       1      1      1      1      64     numeric           B"
+BBBP,304,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,305,vmo -L,"numpsblks                 128K          128K                 4KB blocks        S"
+BBBP,306,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,307,vmo -L,"pinnable_frames           114847        114847               4KB pages         S"
+BBBP,308,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,309,vmo -L,"relalias_percentage       0      0      0      0      32K-1                    D"
+BBBP,310,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,311,vmo -L,"scrub                     0      0      0      0      1      boolean           D"
+BBBP,312,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,313,vmo -L,"v_pinshm                  0      0      0      0      1      boolean           D"
+BBBP,314,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,315,vmo -L,"vmm_default_pspa          0      0      0      -1     100    numeric           D"
+BBBP,316,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,317,vmo -L,"vmm_klock_mode            0      -1     -1     -1     3      numeric           B"
+BBBP,318,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,319,vmo -L,"wlm_memlimit_nonpg        1      1      1      0      1      boolean           D"
+BBBP,320,vmo -L,"n-------------------------------------------------------------------------------"
+BBBP,321,vmo -L,""
+BBBP,322,vmo -L,"n/a means parameter not supported by the current platform or kernel"
+BBBP,323,vmo -L,""
+BBBP,324,vmo -L,"Parameter types:"
+BBBP,325,vmo -L,"    S = Static: cannot be changed"
+BBBP,326,vmo -L,"    D = Dynamic: can be freely changed"
+BBBP,327,vmo -L,"    B = Bosboot: can only be changed using bosboot and reboot"
+BBBP,328,vmo -L,"    R = Reboot: can only be changed during reboot"
+BBBP,329,vmo -L,"    C = Connect: changes are only effective for future socket connections"
+BBBP,330,vmo -L,"    M = Mount: changes are only effective for future mountings"
+BBBP,331,vmo -L,"    I = Incremental: can only be incremented"
+BBBP,332,vmo -L,"    d = deprecated: deprecated and cannot be changed"
+BBBP,333,vmo -L,""
+BBBP,334,vmo -L,"Value conventions:"
+BBBP,335,vmo -L,"    K = Kilo: 2^10       G = Giga: 2^30       P = Peta: 2^50      "
+BBBP,336,vmo -L,"    M = Mega: 2^20       T = Tera: 2^40       E = Exa: 2^60       "
+BBBP,337,ioo -L
+BBBP,338,ioo -L,"NAME                      CUR    DEF    BOOT   MIN    MAX    UNIT           TYPE"
+BBBP,339,ioo -L,"     DEPENDENCIES"
+BBBP,340,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,341,ioo -L,"aio_active                0             0                    boolean           S"
+BBBP,342,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,343,ioo -L,"aio_maxreqs               64K    64K    64K    4K     1M     numeric           D"
+BBBP,344,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,345,ioo -L,"aio_maxservers            30     30     30     1      20000  numeric           D"
+BBBP,346,ioo -L,"     aio_minservers"
+BBBP,347,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,348,ioo -L,"aio_minservers            3      3      3      0      20000  numeric           D"
+BBBP,349,ioo -L,"     aio_maxservers"
+BBBP,350,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,351,ioo -L,"aio_server_inactivity     300    300    300    1      86400  seconds           D"
+BBBP,352,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,353,ioo -L,"j2_atimeUpdateSymlink     0      0      0      0      1      boolean           D"
+BBBP,354,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,355,ioo -L,"j2_dynamicBufferPreallocation"
+BBBP,356,ioo -L,"                          16     16     16     0      256    16K slabs         D"
+BBBP,357,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,358,ioo -L,"j2_inodeCacheSize         400    400    400    1      1000                     D"
+BBBP,359,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,360,ioo -L,"j2_maxPageReadAhead       128    128    128    0      64K    4KB pages         D"
+BBBP,361,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,362,ioo -L,"j2_maxRandomWrite         0      0      0      0      64K    4KB pages         D"
+BBBP,363,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,364,ioo -L,"j2_metadataCacheSize      400    400    400    1      1000                     D"
+BBBP,365,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,366,ioo -L,"j2_minPageReadAhead       2      2      2      0      64K    4KB pages         D"
+BBBP,367,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,368,ioo -L,"j2_nPagesPerWriteBehindCluster"
+BBBP,369,ioo -L,"                          32     32     32     0      64K                      D"
+BBBP,370,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,371,ioo -L,"j2_nRandomCluster         0      0      0      0      64K    16KB clusters     D"
+BBBP,372,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,373,ioo -L,"j2_recoveryMode           1      1      1      0      1      boolean           D"
+BBBP,374,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,375,ioo -L,"j2_syncPageCount          0      0      0      0      64K    4KB pages         D"
+BBBP,376,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,377,ioo -L,"j2_syncPageLimit          16     16     16     1      64K    iterations        D"
+BBBP,378,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,379,ioo -L,"lvm_bufcnt                9      9      9      1      64     128KB/buffer      D"
+BBBP,380,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,381,ioo -L,"maxpgahead                8      8      8      0      4K     4KB pages         D"
+BBBP,382,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,383,ioo -L,"maxrandwrt                0      0      0      0      2G-1   4KB pages         D"
+BBBP,384,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,385,ioo -L,"numclust                  1      1      1      0      2G-1   16KB/cluster      D"
+BBBP,386,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,387,ioo -L,"numfsbufs                 196    196    196    1      2G-1                     M"
+BBBP,388,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,389,ioo -L,"pd_npages                 64K    64K    64K    1      512K   4KB pages         D"
+BBBP,390,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,391,ioo -L,"posix_aio_active          0             0                    boolean           S"
+BBBP,392,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,393,ioo -L,"posix_aio_maxreqs         64K    64K    64K    4K     1M     numeric           D"
+BBBP,394,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,395,ioo -L,"posix_aio_maxservers      30     30     30     1      20000  numeric           D"
+BBBP,396,ioo -L,"     aio_minservers"
+BBBP,397,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,398,ioo -L,"posix_aio_minservers      3      3      3      0      20000  numeric           D"
+BBBP,399,ioo -L,"     aio_maxservers"
+BBBP,400,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,401,ioo -L,"posix_aio_server_inactivity"
+BBBP,402,ioo -L,"                          300    300    300    1      86400  seconds           D"
+BBBP,403,ioo -L,"n-------------------------------------------------------------------------------"
+BBBP,404,ioo -L,""
+BBBP,405,ioo -L,"n/a means parameter not supported by the current platform or kernel"
+BBBP,406,ioo -L,""
+BBBP,407,ioo -L,"Parameter types:"
+BBBP,408,ioo -L,"    S = Static: cannot be changed"
+BBBP,409,ioo -L,"    D = Dynamic: can be freely changed"
+BBBP,410,ioo -L,"    B = Bosboot: can only be changed using bosboot and reboot"
+BBBP,411,ioo -L,"    R = Reboot: can only be changed during reboot"
+BBBP,412,ioo -L,"    C = Connect: changes are only effective for future socket connections"
+BBBP,413,ioo -L,"    M = Mount: changes are only effective for future mountings"
+BBBP,414,ioo -L,"    I = Incremental: can only be incremented"
+BBBP,415,ioo -L,"    d = deprecated: deprecated and cannot be changed"
+BBBP,416,ioo -L,""
+BBBP,417,ioo -L,"Value conventions:"
+BBBP,418,ioo -L,"    K = Kilo: 2^10       G = Giga: 2^30       P = Peta: 2^50      "
+BBBP,419,ioo -L,"    M = Mega: 2^20       T = Tera: 2^40       E = Exa: 2^60       "
+BBBP,420,schedo -L
+BBBP,421,schedo -L,"NAME                      CUR    DEF    BOOT   MIN    MAX    UNIT           TYPE"
+BBBP,422,schedo -L,"     DEPENDENCIES"
+BBBP,423,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,424,schedo -L,"affinity_lim              7      7      7      0      100    dispatches        D"
+BBBP,425,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,426,schedo -L,"big_tick_size             1      1      1      1      100    10 ms             D"
+BBBP,427,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,428,schedo -L,"ded_cpu_donate_thresh     80     80     80     0      100    % busy            D"
+BBBP,429,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,430,schedo -L,"fixed_pri_global          0      0      0      0      1      boolean           D"
+BBBP,431,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,432,schedo -L,"force_grq                 0      0      0      0      1      boolean           D"
+BBBP,433,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,434,schedo -L,"maxspin                   16K    16K    16K    1      4G-1   spins             D"
+BBBP,435,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,436,schedo -L,"pacefork                  10     10     10     10     2G-1   clock ticks       D"
+BBBP,437,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,438,schedo -L,"proc_disk_stats           1      1      1      0      1      boolean           D"
+BBBP,439,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,440,schedo -L,"sched_D                   16     16     16     0      32                       D"
+BBBP,441,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,442,schedo -L,"sched_R                   16     16     16     0      32                       D"
+BBBP,443,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,444,schedo -L,"tb_balance_S0             2      2      2      0      2      ticks             D"
+BBBP,445,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,446,schedo -L,"tb_balance_S1             2      2      2      0      2      ticks             D"
+BBBP,447,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,448,schedo -L,"tb_threshold              100    100    100    10     1000   ticks             D"
+BBBP,449,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,450,schedo -L,"timeslice                 1      1      1      0      2G-1   clock ticks       D"
+BBBP,451,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,452,schedo -L,"vpm_fold_policy           1      1      1      0      15                       D"
+BBBP,453,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,454,schedo -L,"vpm_throughput_core_threshold"
+BBBP,455,schedo -L,"                          1      1      1      0      512    cores             D"
+BBBP,456,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,457,schedo -L,"vpm_throughput_mode       0      0      0      0      4      level             D"
+BBBP,458,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,459,schedo -L,"vpm_xvcpus                0      0      0      -1     512    processors        D"
+BBBP,460,schedo -L,"n-------------------------------------------------------------------------------"
+BBBP,461,schedo -L,""
+BBBP,462,schedo -L,"n/a means parameter not supported by the current platform or kernel"
+BBBP,463,schedo -L,""
+BBBP,464,schedo -L,"Parameter types:"
+BBBP,465,schedo -L,"    S = Static: cannot be changed"
+BBBP,466,schedo -L,"    D = Dynamic: can be freely changed"
+BBBP,467,schedo -L,"    B = Bosboot: can only be changed using bosboot and reboot"
+BBBP,468,schedo -L,"    R = Reboot: can only be changed during reboot"
+BBBP,469,schedo -L,"    C = Connect: changes are only effective for future socket connections"
+BBBP,470,schedo -L,"    M = Mount: changes are only effective for future mountings"
+BBBP,471,schedo -L,"    I = Incremental: can only be incremented"
+BBBP,472,schedo -L,"    d = deprecated: deprecated and cannot be changed"
+BBBP,473,schedo -L,""
+BBBP,474,schedo -L,"Value conventions:"
+BBBP,475,schedo -L,"    K = Kilo: 2^10       G = Giga: 2^30       P = Peta: 2^50      "
+BBBP,476,schedo -L,"    M = Mega: 2^20       T = Tera: 2^40       E = Exa: 2^60       "
+BBBP,477,lsattr -El sys0
+BBBP,478,lsattr -El sys0,"SW_dist_intr    false                                Enable SW distribution of interrupts                True"
+BBBP,479,lsattr -El sys0,"autorestart     true                                 Automatically REBOOT OS after a crash               True"
+BBBP,480,lsattr -El sys0,"boottype        disk                                 N/A                                                 False"
+BBBP,481,lsattr -El sys0,"capacity_inc    0.01                                 Processor capacity increment                        False"
+BBBP,482,lsattr -El sys0,"capped          false                                Partition is capped                                 False"
+BBBP,483,lsattr -El sys0,"chown_restrict  true                                 Chown Restriction Mode                              True"
+BBBP,484,lsattr -El sys0,"conslogin       enable                               System Console Login                                False"
+BBBP,485,lsattr -El sys0,"cpuguard        enable                               CPU Guard                                           True"
+BBBP,486,lsattr -El sys0,"dedicated       false                                Partition is dedicated                              False"
+BBBP,487,lsattr -El sys0,"enhanced_RBAC   true                                 Enhanced RBAC Mode                                  True"
+BBBP,488,lsattr -El sys0,"ent_capacity    1.00                                 Entitled processor capacity                         False"
+BBBP,489,lsattr -El sys0,"frequency       6400000000                           System Bus Frequency                                False"
+BBBP,490,lsattr -El sys0,"fullcore        false                                Enable full CORE dump                               True"
+BBBP,491,lsattr -El sys0,"fwversion       IBM,AL770_109                        Firmware version and revision levels                False"
+BBBP,492,lsattr -El sys0,"ghostdev        0                                    Recreate ODM devices on system change / modify PVID True"
+BBBP,493,lsattr -El sys0,"id_to_partition 0X8000024962C00003                   Partition ID                                        False"
+BBBP,494,lsattr -El sys0,"id_to_system    0X8000024962C00000                   System ID                                           False"
+BBBP,495,lsattr -El sys0,"iostat          false                                Continuously maintain DISK I/O history              True"
+BBBP,496,lsattr -El sys0,"keylock         normal                               State of system keylock at boot time                False"
+BBBP,497,lsattr -El sys0,"log_pg_dealloc  true                                 Log predictive memory page deallocation events      True"
+BBBP,498,lsattr -El sys0,"max_capacity    2.00                                 Maximum potential processor capacity                False"
+BBBP,499,lsattr -El sys0,"max_logname     9                                    Maximum login name length at boot time              True"
+BBBP,500,lsattr -El sys0,"maxbuf          20                                   Maximum number of pages in block I/O BUFFER CACHE   True"
+BBBP,501,lsattr -El sys0,"maxmbuf         0                                    Maximum Kbytes of real memory allowed for MBUFS     True"
+BBBP,502,lsattr -El sys0,"maxpout         8193                                 HIGH water mark for pending write I/Os per file     True"
+BBBP,503,lsattr -El sys0,"maxuproc        128                                  Maximum number of PROCESSES allowed per user        True"
+BBBP,504,lsattr -El sys0,"min_capacity    1.00                                 Minimum potential processor capacity                False"
+BBBP,505,lsattr -El sys0,"minpout         4096                                 LOW water mark for pending write I/Os per file      True"
+BBBP,506,lsattr -El sys0,"modelname       IBM,8202-E4D                         Machine name                                        False"
+BBBP,507,lsattr -El sys0,"ncargs          256                                  ARG/ENV list size in 4K byte blocks                 True"
+BBBP,508,lsattr -El sys0,"nfs4_acl_compat secure                               NFS4 ACL Compatibility Mode                         True"
+BBBP,509,lsattr -El sys0,"os_uuid         4921e387-26ce-4dd4-b052-b483fe8b3122 N/A                                                 True"
+BBBP,510,lsattr -El sys0,"pre430core      false                                Use pre-430 style CORE dump                         True"
+BBBP,511,lsattr -El sys0,"pre520tune      disable                              Pre-520 tuning compatibility mode                   True"
+BBBP,512,lsattr -El sys0,"realmem         1048576                              Amount of usable physical memory in Kbytes          False"
+BBBP,513,lsattr -El sys0,"rtasversion     1                                    Open Firmware RTAS version                          False"
+BBBP,514,lsattr -El sys0,"sed_config      select                               Stack Execution Disable (SED) Mode                  True"
+BBBP,515,lsattr -El sys0,"systemid        IBM,02841FE3W                        Hardware system identifier                          False"
+BBBP,516,lsattr -El sys0,"variable_weight 0                                    Variable processor capacity weight                  False"
+BBBP,517,ipcs -a
+BBBP,518,ipcs -a,"IPC status from /dev/mem as of Thu Mar 22 14:45:15 CST 2018"
+BBBP,519,ipcs -a,"T        ID     KEY        MODE       OWNER    GROUP  CREATOR   CGROUP CBYTES  QNUM QBYTES LSPID LRPID   STIME    RTIME    CTIME "
+BBBP,520,ipcs -a,"Message Queues:"
+BBBP,521,ipcs -a,"q         0 0x4107001c -Rrw-rw----     root   printq     root   printq         0         0   4194304      0      0 no-entry no-entry 11:26:32"
+BBBP,522,ipcs -a,"T        ID     KEY        MODE       OWNER    GROUP  CREATOR   CGROUP NATTCH     SEGSZ  CPID  LPID   ATIME    DTIME    CTIME "
+BBBP,523,ipcs -a,"Shared Memory:"
+BBBP,524,ipcs -a,"T        ID     KEY        MODE       OWNER    GROUP  CREATOR   CGROUP NSEMS   OTIME    CTIME "
+BBBP,525,ipcs -a,"Semaphores:"
+BBBP,526,ipcs -a,"s   3145728 0x02003661 --ra-ra-ra-     root   system     root   system     2 11:26:33 11:26:33"
+BBBP,527,ipcs -a,"s         1 0x6200619e --ra-r--r--     root   system     root   system     1 11:26:25 11:26:25"
+BBBP,528,ipcs -a,"s         2 0x01003661 --ra-ra-ra-     root   system     root   system     2 11:26:33 11:26:33"
+BBBP,529,ipcs -a,"s         8 0xa1000017 --ra-ra-ra-     root   system     root   system     2 16:29:56 11:26:34"
+BBBP,530,vmstat -v
+BBBP,531,vmstat -v,"               262144 memory pages"
+BBBP,532,vmstat -v,"               241696 lruable pages"
+BBBP,533,vmstat -v,"                18041 free pages"
+BBBP,534,vmstat -v,"                    1 memory pools"
+BBBP,535,vmstat -v,"               147297 pinned pages"
+BBBP,536,vmstat -v,"                 80.0 maxpin percentage"
+BBBP,537,vmstat -v,"                  3.0 minperm percentage"
+BBBP,538,vmstat -v,"                 90.0 maxperm percentage"
+BBBP,539,vmstat -v,"                  5.6 numperm percentage"
+BBBP,540,vmstat -v,"                13569 file pages"
+BBBP,541,vmstat -v,"                  0.0 compressed percentage"
+BBBP,542,vmstat -v,"                    0 compressed pages"
+BBBP,543,vmstat -v,"                  5.6 numclient percentage"
+BBBP,544,vmstat -v,"                 90.0 maxclient percentage"
+BBBP,545,vmstat -v,"                13569 client pages"
+BBBP,546,vmstat -v,"                    0 remote pageouts scheduled"
+BBBP,547,vmstat -v,"                    0 pending disk I/Os blocked with no pbuf"
+BBBP,548,vmstat -v,"                    0 paging space I/Os blocked with no psbuf"
+BBBP,549,vmstat -v,"                 2228 filesystem I/Os blocked with no fsbuf"
+BBBP,550,vmstat -v,"                    0 client filesystem I/Os blocked with no fsbuf"
+BBBP,551,vmstat -v,"                    0 external pager filesystem I/Os blocked with no fsbuf"
+BBBP,552,vmstat -v,"                 87.9 percentage of memory used for computational pages"
+BBBP,553,vmstat -s
+BBBP,554,vmstat -s,"              9314951 total address trans. faults"
+BBBP,555,vmstat -s,"               243714 page ins"
+BBBP,556,vmstat -s,"               211820 page outs"
+BBBP,557,vmstat -s,"                  320 paging space page ins"
+BBBP,558,vmstat -s,"                 2688 paging space page outs"
+BBBP,559,vmstat -s,"                    0 total reclaims"
+BBBP,560,vmstat -s,"              3228099 zero filled pages faults"
+BBBP,561,vmstat -s,"                38441 executable filled pages faults"
+BBBP,562,vmstat -s,"               730615 pages examined by clock"
+BBBP,563,vmstat -s,"                    9 revolutions of the clock hand"
+BBBP,564,vmstat -s,"               373329 pages freed by the clock"
+BBBP,565,vmstat -s,"               188146 backtracks"
+BBBP,566,vmstat -s,"                   13 free frame waits"
+BBBP,567,vmstat -s,"                    0 extend XPT waits"
+BBBP,568,vmstat -s,"                23336 pending I/O waits"
+BBBP,569,vmstat -s,"               453857 start I/Os"
+BBBP,570,vmstat -s,"                66007 iodones"
+BBBP,571,vmstat -s,"             34611173 cpu context switches"
+BBBP,572,vmstat -s,"               440569 device interrupts"
+BBBP,573,vmstat -s,"              9371467 software interrupts"
+BBBP,574,vmstat -s,"             32191578 decrementer interrupts"
+BBBP,575,vmstat -s,"                 2261 mpc-sent interrupts"
+BBBP,576,vmstat -s,"                 2261 mpc-received interrupts"
+BBBP,577,vmstat -s,"                43231 phantom interrupts"
+BBBP,578,vmstat -s,"                    0 traps"
+BBBP,579,vmstat -s,"             55644422 syscalls"
+BBBP,580,vmstat -i
+BBBP,581,vmstat -i,"priority level    type   count module(handler)"
+BBBP,582,vmstat -i,"    0       2   hardware  2221 i_mpc_int_handler(2be3ae8.16)"
+BBBP,583,vmstat -i,"    0  589825   hardware     0 /usr/lib/drivers/planar_pal_chrp(4226238.16)"
+BBBP,584,vmstat -i,"    1  655360   hardware     0 /usr/lib/drivers/vconsdd(c01d4460.16)"
+BBBP,585,vmstat -i,"    3  124420   hardware 208014 /usr/lib/drivers/pci/musentdd(44980b0.16)"
+BBBP,586,vmstat -i,"    3  128512   hardware 232520 /etc/drivers/pci/efcddpin(432c848.16)"
+BBBP,587,wlmcntrl -q
+BBBP,588,wlmcntrl -q,"WLM is stopped"
+BBBP,589,WLMclasses
+BBBP,590,WLMclasses,"m IBM_PROLOG_BEGIN_TAG "
+BBBP,591,WLMclasses,"m This is an automatically generated prolog. "
+BBBP,592,WLMclasses,"m  "
+BBBP,593,WLMclasses,"m bos610 src/bos/etc/wlm/classes 1.1 "
+BBBP,594,WLMclasses,"m  "
+BBBP,595,WLMclasses,"m Licensed Materials - Property of IBM "
+BBBP,596,WLMclasses,"m  "
+BBBP,597,WLMclasses,"m COPYRIGHT International Business Machines Corp. 1999 "
+BBBP,598,WLMclasses,"m All Rights Reserved "
+BBBP,599,WLMclasses,"m  "
+BBBP,600,WLMclasses,"m US Government Users Restricted Rights - Use, duplication or "
+BBBP,601,WLMclasses,"m disclosure restricted by GSA ADP Schedule Contract with IBM Corp. "
+BBBP,602,WLMclasses,"m  "
+BBBP,603,WLMclasses,"m IBM_PROLOG_END_TAG "
+BBBP,604,WLMclasses,"System:"
+BBBP,605,WLMclasses,""
+BBBP,606,WLMclasses,"Default:"
+BBBP,607,WLMrules
+BBBP,608,WLMrules,"m IBM_PROLOG_BEGIN_TAG "
+BBBP,609,WLMrules,"m This is an automatically generated prolog. "
+BBBP,610,WLMrules,"m  "
+BBBP,611,WLMrules,"m bos610 src/bos/etc/wlm/rules 1.2 "
+BBBP,612,WLMrules,"m  "
+BBBP,613,WLMrules,"m Licensed Materials - Property of IBM "
+BBBP,614,WLMrules,"m  "
+BBBP,615,WLMrules,"m COPYRIGHT International Business Machines Corp. 1999,2002 "
+BBBP,616,WLMrules,"m All Rights Reserved "
+BBBP,617,WLMrules,"m  "
+BBBP,618,WLMrules,"m US Government Users Restricted Rights - Use, duplication or "
+BBBP,619,WLMrules,"m disclosure restricted by GSA ADP Schedule Contract with IBM Corp. "
+BBBP,620,WLMrules,"m  "
+BBBP,621,WLMrules,"m IBM_PROLOG_END_TAG "
+BBBP,622,WLMrules,"m class resvd user group application type tag"
+BBBP,623,WLMrules,"System   -    root   -    -           -   -"
+BBBP,624,WLMrules,"Default  -    -      -    -           -   -"
+BBBP,625,WLMlimits
+BBBP,626,WLMlimits,"m IBM_PROLOG_BEGIN_TAG "
+BBBP,627,WLMlimits,"m This is an automatically generated prolog. "
+BBBP,628,WLMlimits,"m  "
+BBBP,629,WLMlimits,"m bos610 src/bos/etc/wlm/limits 1.2 "
+BBBP,630,WLMlimits,"m  "
+BBBP,631,WLMlimits,"m Licensed Materials - Property of IBM "
+BBBP,632,WLMlimits,"m  "
+BBBP,633,WLMlimits,"m COPYRIGHT International Business Machines Corp. 1999,2000 "
+BBBP,634,WLMlimits,"m All Rights Reserved "
+BBBP,635,WLMlimits,"m  "
+BBBP,636,WLMlimits,"m US Government Users Restricted Rights - Use, duplication or "
+BBBP,637,WLMlimits,"m disclosure restricted by GSA ADP Schedule Contract with IBM Corp. "
+BBBP,638,WLMlimits,"m  "
+BBBP,639,WLMlimits,"m IBM_PROLOG_END_TAG "
+BBBP,640,WLMlimits,"System:"
+BBBP,641,WLMlimits,"	memory = 1%-100%;100%"
+BBBP,642,WLMshares
+BBBP,643,WLMshares,"m IBM_PROLOG_BEGIN_TAG "
+BBBP,644,WLMshares,"m This is an automatically generated prolog. "
+BBBP,645,WLMshares,"m  "
+BBBP,646,WLMshares,"m bos610 src/bos/etc/wlm/shares 1.1 "
+BBBP,647,WLMshares,"m  "
+BBBP,648,WLMshares,"m Licensed Materials - Property of IBM "
+BBBP,649,WLMshares,"m  "
+BBBP,650,WLMshares,"m COPYRIGHT International Business Machines Corp. 1999 "
+BBBP,651,WLMshares,"m All Rights Reserved "
+BBBP,652,WLMshares,"m  "
+BBBP,653,WLMshares,"m US Government Users Restricted Rights - Use, duplication or "
+BBBP,654,WLMshares,"m disclosure restricted by GSA ADP Schedule Contract with IBM Corp. "
+BBBP,655,WLMshares,"m  "
+BBBP,656,WLMshares,"m IBM_PROLOG_END_TAG "
+BBBP,657,mount
+BBBP,658,mount,"  node       mounted        mounted over    vfs       date        options      "
+BBBP,659,mount,"n------- ---------------  ---------------  ------ ------------ --------------- "
+BBBP,660,mount,"         /dev/hd4         /                jfs2   Mar 20 11:25 rw,log=/dev/hd8 "
+BBBP,661,mount,"         /dev/hd2         /usr             jfs2   Mar 20 11:25 rw,log=/dev/hd8 "
+BBBP,662,mount,"         /dev/hd9var      /var             jfs2   Mar 20 11:25 rw,log=/dev/hd8 "
+BBBP,663,mount,"         /dev/hd3         /tmp             jfs2   Mar 20 11:25 rw,log=/dev/hd8 "
+BBBP,664,mount,"         /dev/hd1         /home            jfs2   Mar 20 11:26 rw,log=/dev/hd8 "
+BBBP,665,mount,"         /dev/hd11admin   /admin           jfs2   Mar 20 11:26 rw,log=/dev/hd8 "
+BBBP,666,mount,"         /proc            /proc            procfs Mar 20 11:26 rw              "
+BBBP,667,mount,"         /dev/hd10opt     /opt             jfs2   Mar 20 11:26 rw,log=/dev/hd8 "
+BBBP,668,mount,"         /dev/livedump    /var/adm/ras/livedump jfs2   Mar 20 11:26 rw,log=/dev/hd8 "
+BBBP,669,lsattr -El aio0
+BBBP,670,oslevel
+BBBP,671,oslevel,"6100-08"
+BBBP,672,oslevel,"6100-07"
+BBBP,673,oslevel,"6100-06"
+BBBP,674,oslevel,"6100-05"
+BBBP,675,oslevel,"6100-04"
+BBBP,676,oslevel,"6100-03"
+BBBP,677,oslevel,"6100-02"
+BBBP,678,oslevel,"6100-01"
+BBBP,679,oslevel,"6100-00"
+BBBP,680,oslevel
+BBBP,681,oslevel,"6100-08-02-1316"
+BBBP,682,ps v
+BBBP,683,ps v,"     PID    TTY STAT  TIME PGIN  SIZE   RSS   LIM  TSIZ   TRS %CPU %MEM COMMAND"
+BBBP,684,ps v," 3932346  pts/0 A     0:00    0   604   712 32768    85   108  0.0  0.0 /usr/bi"
+BBBP,685,ps v," 6553614  pts/0 A     0:00    0   748  1148 32768   521   400  0.0  0.0 /usr/bi"
+BBBP,686,ps v," 7995596  pts/0 A     0:00    9   568   820 32768   243   252  0.0  0.0 -ksh "
+BBBP,687,ps v," 8323168        Z     0:00                                              <defunct>"
+BBBP,688,ifconfig
+BBBP,689,ifconfig,"en0: flags=5e080863,18c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),PSEG,LARGESEND,CHAIN>"
+BBBP,690,ifconfig,"	inet 192.168.70.7 netmask 0xffffffe0 broadcast 192.168.70.31"
+BBBP,691,ifconfig,"	 tcp_sendspace 131072 tcp_recvspace 65536 rfc1323 0"
+BBBP,692,ifconfig,"lo0: flags=e08084b,c0<UP,BROADCAST,LOOPBACK,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,LARGESEND,CHAIN>"
+BBBP,693,ifconfig,"	inet 127.0.0.1 netmask 0xff000000 broadcast 127.255.255.255"
+BBBP,694,ifconfig,"	inet6 ::1%1/0"
+BBBP,695,ifconfig,"	 tcp_sendspace 131072 tcp_recvspace 131072 rfc1323 1"
+BBBP,696,netstat
+BBBP,697,netstat,"Routing tables"
+BBBP,698,netstat,"Destination        Gateway           Flags   Refs     Use  If   Exp  Groups"
+BBBP,699,netstat,""
+BBBP,700,netstat,"Route tree for Protocol Family 2 (Internet):"
+BBBP,701,netstat,"default            192.168.70.30     UG        3     42391 en0      -      -   "
+BBBP,702,netstat,"127/8              127.0.0.1         U         4    135934 lo0      -      -   "
+BBBP,703,netstat,"192.168.70.0       192.168.70.7      UHSb      0         0 en0      -      -   =>"
+BBBP,704,netstat,"192.168.70/27      192.168.70.7      U         2     14408 en0      -      -   "
+BBBP,705,netstat,"192.168.70.7       127.0.0.1         UGHS      0       637 lo0      -      -   "
+BBBP,706,netstat,"192.168.70.31      192.168.70.7      UHSb      2       828 en0      -      -   "
+BBBP,707,netstat,""
+BBBP,708,netstat,"Route tree for Protocol Family 24 (Internet v6):"
+BBBP,709,netstat,"::1%1              ::1%1             UH        1      9556 lo0      -      -   "
+BBBP,710,emgr -l
+ZZZZ,T0001,14:45:19,22-MAR-2018
+CPU01,T0001,0.0,0.0,0.0,100.0
+CPU02,T0001,0.0,0.0,0.0,100.0
+CPU03,T0001,0.0,0.0,0.0,100.0
+CPU04,T0001,0.0,0.0,0.0,100.0
+CPU05,T0001,0.0,0.0,0.0,100.0
+CPU06,T0001,0.0,0.0,0.0,100.0
+CPU07,T0001,0.0,0.0,0.0,100.0
+CPU08,T0001,0.0,0.0,0.0,100.0
+PCPU01,T0001,0.00,0.00,0.00,0.00
+PCPU02,T0001,0.00,0.00,0.00,0.00
+PCPU03,T0001,0.00,0.00,0.00,0.00
+PCPU04,T0001,0.00,0.00,0.00,0.00
+PCPU05,T0001,0.00,0.00,0.00,0.00
+PCPU06,T0001,0.00,0.00,0.00,0.00
+PCPU07,T0001,0.00,0.00,0.00,0.01
+PCPU08,T0001,0.00,0.00,0.00,0.00
+SCPU01,T0001,0.00,0.00,0.00,0.00
+SCPU02,T0001,0.00,0.00,0.00,0.00
+SCPU03,T0001,0.00,0.00,0.00,0.00
+SCPU04,T0001,0.00,0.00,0.00,0.00
+SCPU05,T0001,0.00,0.00,0.00,0.00
+SCPU06,T0001,0.00,0.00,0.00,0.00
+SCPU07,T0001,0.00,0.00,0.00,0.01
+SCPU08,T0001,0.00,0.00,0.00,0.00
+CPU_ALL,T0001,0.0,0.1,0.0,99.8,,8
+PCPU_ALL,T0001,0.00,0.00,0.0,0.02,1.00
+SCPU_ALL,T0001,0.00,0.00,0.0,0.02
+BBBL,21,Flags,LPARed DRable SMT Shared UnCapped Migratable Not-Donating AMSable.
+LPAR,T0001,0.021,2,8,6,1.00,0,0.00,0.26,0.35,1,0,0.03,0.17,0.00,1.88,0.01,0.08,0.00,0.94,0,0
+POOLS,T0001,6,6.00,4.00,0.00,0.00,0.00,0.00,0,1.00
+MEM,T0001,6.9,90.7,70.9,464.5,1024.0,512.0
+MEMNEW,T0001,52.8,5.2,35.1,6.9,56.2,53.0
+MEMUSE,T0001,5.2,3.0,90.0,960,1088,5.2,90.0, 241696.0
+PAGE,T0001,230701.2,1.0,577.0,0.0,0.0,0.0,0.0,0.0
+PROC,T0001,0.00,0.00,300,10758,484,28,26,3,0,0,0,0,0
+FILE,T0001,0,149,0,19251,3592,0,0,0
+NET,T0001,0.0,0.0,0.0,0.0
+NETPACKET,T0001,0.0,0.0,0.0,0.0
+NETSIZE,T0001,0.0,0.0,0.0,0.0
+NETERROR,T0001,0.0,0.0,0.0,0.0,0.0,0.0
+IOADAPT,T0001,7371.5,2956.0,266.0
+JFSFILE,T0001,78.2,0.3,97.7,58.4,4.2,0.3,12.9,0.1
+JFSINODE,T0001,41.7,0.0,71.4,12.1,0.2,0.0,0.9,0.0
+DISKBUSY,T0001,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0001,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0001,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0001,0.0,0.0,0.0,0.0,0.0
+DISKRXFER,T0001,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0001,0.0,0.0,0.0,0.0,0.0
+DISKRIO,T0001,0.0,0.0,0.0,0.0,0.0
+DISKWIO,T0001,0.0,0.0,0.0,0.0,0.0
+DISKAVGRIO,T0001,0.0,0.0,0.0,0.0,0.0
+DISKAVGWIO,T0001,0.0,0.0,0.0,0.0,0.0
+BBBP,711,ending df -m
+BBBP,712,ending df -m,"Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on"
+BBBP,713,ending df -m,"ddev/hd4         256.00     55.91   79%    10252    42% /"
+BBBP,714,ending df -m,"ddev/hd2        2560.00     57.70   98%    45638    72% /usr"
+BBBP,715,ending df -m,"ddev/hd9var      640.00    265.95   59%     8705    13% /var"
+BBBP,716,ending df -m,"ddev/hd3         128.00    122.64    5%       65     1% /tmp"
+BBBP,717,ending df -m,"ddev/hd1         128.00    127.62    1%       10     1% /home"
+BBBP,718,ending df -m,"ddev/hd11admin    128.00    127.64    1%        5     1% /admin"
+BBBP,719,ending df -m,"dproc                 -         -    -         -     -  /proc"
+BBBP,720,ending df -m,"ddev/hd10opt    5120.00   4458.86   13%     9054     1% /opt"
+BBBP,721,ending df -m,"ddev/livedump    256.00    255.64    1%        4     1% /var/adm/ras/livedump"
+BBBP,722,ending vmstat -v
+BBBP,723,ending vmstat -v,"               262144 memory pages"
+BBBP,724,ending vmstat -v,"               241696 lruable pages"
+BBBP,725,ending vmstat -v,"                17703 free pages"
+BBBP,726,ending vmstat -v,"                    1 memory pools"
+BBBP,727,ending vmstat -v,"               147313 pinned pages"
+BBBP,728,ending vmstat -v,"                 80.0 maxpin percentage"
+BBBP,729,ending vmstat -v,"                  3.0 minperm percentage"
+BBBP,730,ending vmstat -v,"                 90.0 maxperm percentage"
+BBBP,731,ending vmstat -v,"                  5.6 numperm percentage"
+BBBP,732,ending vmstat -v,"                13573 file pages"
+BBBP,733,ending vmstat -v,"                  0.0 compressed percentage"
+BBBP,734,ending vmstat -v,"                    0 compressed pages"
+BBBP,735,ending vmstat -v,"                  5.6 numclient percentage"
+BBBP,736,ending vmstat -v,"                 90.0 maxclient percentage"
+BBBP,737,ending vmstat -v,"                13573 client pages"
+BBBP,738,ending vmstat -v,"                    0 remote pageouts scheduled"
+BBBP,739,ending vmstat -v,"                    0 pending disk I/Os blocked with no pbuf"
+BBBP,740,ending vmstat -v,"                    0 paging space I/Os blocked with no psbuf"
+BBBP,741,ending vmstat -v,"                 2228 filesystem I/Os blocked with no fsbuf"
+BBBP,742,ending vmstat -v,"                    0 client filesystem I/Os blocked with no fsbuf"
+BBBP,743,ending vmstat -v,"                    0 external pager filesystem I/Os blocked with no fsbuf"
+BBBP,744,ending vmstat -v,"                 88.1 percentage of memory used for computational pages"
+BBBP,745,ending vmstat -s
+BBBP,746,ending vmstat -s,"              9499495 total address trans. faults"
+BBBP,747,ending vmstat -s,"               243714 page ins"
+BBBP,748,ending vmstat -s,"               212396 page outs"
+BBBP,749,ending vmstat -s,"                  320 paging space page ins"
+BBBP,750,ending vmstat -s,"                 2688 paging space page outs"
+BBBP,751,ending vmstat -s,"                    0 total reclaims"
+BBBP,752,ending vmstat -s,"              3274406 zero filled pages faults"
+BBBP,753,ending vmstat -s,"                38441 executable filled pages faults"
+BBBP,754,ending vmstat -s,"               730615 pages examined by clock"
+BBBP,755,ending vmstat -s,"                    9 revolutions of the clock hand"
+BBBP,756,ending vmstat -s,"               373329 pages freed by the clock"
+BBBP,757,ending vmstat -s,"               189696 backtracks"
+BBBP,758,ending vmstat -s,"                   13 free frame waits"
+BBBP,759,ending vmstat -s,"                    0 extend XPT waits"
+BBBP,760,ending vmstat -s,"                23336 pending I/O waits"
+BBBP,761,ending vmstat -s,"               454433 start I/Os"
+BBBP,762,ending vmstat -s,"                66025 iodones"
+BBBP,763,ending vmstat -s,"             34617329 cpu context switches"
+BBBP,764,ending vmstat -s,"               440675 device interrupts"
+BBBP,765,ending vmstat -s,"              9371675 software interrupts"
+BBBP,766,ending vmstat -s,"             32192921 decrementer interrupts"
+BBBP,767,ending vmstat -s,"                 2261 mpc-sent interrupts"
+BBBP,768,ending vmstat -s,"                 2261 mpc-received interrupts"
+BBBP,769,ending vmstat -s,"                43233 phantom interrupts"
+BBBP,770,ending vmstat -s,"                    0 traps"
+BBBP,771,ending vmstat -s,"             55796495 syscalls"
+BBBP,772,ending vmstat -i
+BBBP,773,ending vmstat -i,"priority level    type   count module(handler)"
+BBBP,774,ending vmstat -i,"    0       2   hardware  2221 i_mpc_int_handler(2be3ae8.16)"
+BBBP,775,ending vmstat -i,"    0  589825   hardware     0 /usr/lib/drivers/planar_pal_chrp(4226238.16)"
+BBBP,776,ending vmstat -i,"    1  655360   hardware     0 /usr/lib/drivers/vconsdd(c01d4460.16)"
+BBBP,777,ending vmstat -i,"    3  124420   hardware 208014 /usr/lib/drivers/pci/musentdd(44980b0.16)"
+BBBP,778,ending vmstat -i,"    3  128512   hardware 232626 /etc/drivers/pci/efcddpin(432c848.16)"
+BBBP,779,ending mpstat -d
+BBBP,780,ending mpstat -d,""
+BBBP,781,ending mpstat -d,"System configuration: lcpu=8 ent=1.0 mode=Uncapped "
+BBBP,782,ending mpstat -d,""
+BBBP,783,ending mpstat -d,"cpu     cs    ics  bound     rq   push S3pull  S3grd  S0rd  S1rd  S2rd  S3rd  S4rd  S5rd   ilcs   vlcs S3hrd S4hrd S5hrd"
+BBBP,784,ending mpstat -d,"cpu     cs    ics  bound     rq   push S3pull  S3grd  S0rd  S1rd  S2rd  S3rd  S4rd  S5rd   ilcs   vlcs S3hrd S4hrd S5hrd  %nsp"
+BBBP,785,ending mpstat -d,"  0 16815761 210218      1      2      0      0      0  99.9   0.0   0.0   0.1   0.0   0.0  22284 24507414 100.0   0.0   0.0   101"
+BBBP,786,ending mpstat -d,"  1  51334  22895      0      0      0      0      0  62.2  37.8   0.0   0.0   0.0   0.0    585 1982345 100.0   0.0   0.0   101"
+BBBP,787,ending mpstat -d,"  2  18520  18482      0      0      0      0      0   0.1  99.9   0.0   0.0   0.0   0.0     23 1954701 100.0   0.0   0.0   101"
+BBBP,788,ending mpstat -d,"  3  18898  18529      0      0      0      0      0   2.1  97.9   0.0   0.0   0.0   0.0     26 1954963 100.0   0.0   0.0   101"
+BBBP,789,ending mpstat -d,"  4  58352  23163      0      0      0      0      0  68.4   0.4   0.0  31.2   0.0   0.0   2062 3340877 100.0   0.0   0.0   101"
+BBBP,790,ending mpstat -d,"  5  25960  19325      0      0      0      0      0  29.3  70.7   0.0   0.0   0.0   0.0  57220  13927 100.0   0.0   0.0   101"
+BBBP,791,ending mpstat -d,"  6  18488  18478      0      0      0      0      0   0.1  99.9   0.0   0.0   0.0   0.0  56451   7364 100.0   0.0   0.0   101"
+BBBP,792,ending mpstat -d,"  7  18488  18477      0      0      0      0      0   0.1  99.9   0.0   0.0   0.0   0.0  56363   7560 100.0   0.0   0.0   101"
+BBBP,793,ending mpstat -d,"ALL 17025801 349567      1      2      0      0      0  99.2   0.6   0.0   0.2   0.0   0.0 195014 33769151 100.0   0.0   0.0   101"
+BBBP,794,ending lssrad
+BBBP,795,ending lssrad,"REF1   SRAD        MEM      CPU"
+BBBP,796,ending lssrad,"0"
+BBBP,797,ending lssrad,"          0     974.88      0-7"
+BBBP,798,ending lparstat -H
+BBBP,799,ending lparstat -H,""
+BBBP,800,ending lparstat -H,"System configuration: type=Shared mode=Uncapped smt=4 lcpu=8 mem=1024MB psize=6 ent=1.00 "
+BBBP,801,ending lparstat -H,""
+BBBP,802,ending lparstat -H,"           Detailed information on Hypervisor Calls"
+BBBP,803,ending lparstat -H,""
+BBBP,804,ending lparstat -H,"Hypervisor        Number of    %Total Time   %Hypervisor   Avg Call    Max Call"
+BBBP,805,ending lparstat -H,"  Call              Calls         Spent      Time Spent    Time(ns)    Time(ns)"
+BBBP,806,ending lparstat -H,""
+BBBP,807,ending lparstat -H,"remove                   25            0.0           0.3        497         750"
+BBBP,808,ending lparstat -H,"read                     13            0.0           0.0        134         187"
+BBBP,809,ending lparstat -H,"nclear_mod                0            0.0           0.0          0           0"
+BBBP,810,ending lparstat -H,"page_init                99            0.0           1.0        416         781"
+BBBP,811,ending lparstat -H,"clear_ref                 0            0.0           0.0          0           0"
+BBBP,812,ending lparstat -H,"protect                   0            0.0           0.0          0           0"
+BBBP,813,ending lparstat -H,"put_tce                  13            0.0           0.1        338         468"
+BBBP,814,ending lparstat -H,"xirr                      0            0.0           0.0          0           0"
+BBBP,815,ending lparstat -H,"eoi                      11            0.0           0.1        301         437"
+BBBP,816,ending lparstat -H,"ipi                       0            0.0           0.0          0           0"
+BBBP,817,ending lparstat -H,"cppr                      0            0.0           0.0          0           0"
+BBBP,818,ending lparstat -H,"asr                       0            0.0           0.0          0           0"
+BBBP,819,ending lparstat -H,"others                  538            0.0           1.2         92         250"
+BBBP,820,ending lparstat -H,"enter                   138            0.0           0.9        267         531"
+BBBP,821,ending lparstat -H,"cede                     27            0.0          96.0     146536     1201937"
+BBBP,822,ending lparstat -H,"migrate_dma               0            0.0           0.0          0           0"
+BBBP,823,ending lparstat -H,"put_rtce                  0            0.0           0.0          0           0"
+BBBP,824,ending lparstat -H,"confer                    0            0.0           0.0          0           0"
+BBBP,825,ending lparstat -H,"prod                     11            0.0           0.1        536        1125"
+BBBP,826,ending lparstat -H,"get_ppp                   4            0.0           0.1        789         937"
+BBBP,827,ending lparstat -H,"set_ppp                   0            0.0           0.0          0           0"
+BBBP,828,ending lparstat -H,"purr                      0            0.0           0.0          0           0"
+BBBP,829,ending lparstat -H,"pic                       4            0.0           0.0        140         187"
+BBBP,830,ending lparstat -H,"bulk_remove               0            0.0           0.0          0           0"
+BBBP,831,ending lparstat -H,"send_crq                  0            0.0           0.0          0           0"
+BBBP,832,ending lparstat -H,"copy_rdma                 0            0.0           0.0          0           0"
+BBBP,833,ending lparstat -H,"get_tce                   0            0.0           0.0          0           0"
+BBBP,834,ending lparstat -H,"send_logical_lan          0            0.0           0.0          0           0"
+BBBP,835,ending lparstat -H,"add_logicl_lan_buf        0            0.0           0.0          0           0"
+BBBP,836,ending lparstat -H,"h_remove_rtce             0            0.0           0.0          0           0"
+BBBP,837,ending lparstat -H,"h_ipoll                   0            0.0           0.0          0           0"
+BBBP,838,ending lparstat -H,"h_stuff_tce              11            0.0           0.1        255         343"
+BBBP,839,ending lparstat -H,"h_get_mpp                 0            0.0           0.0          0           0"
+BBBP,840,ending lparstat -H,"h_set_mpp                 0            0.0           0.0          0           0"
+BBBP,841,ending lparstat -H,"h_get_mpp_x               0            0.0           0.0          0           0"
+BBBP,842,ending lparstat -H,"h_get_em_parms            4            0.0           0.0        210         312"
+BBBP,843,ending lparstat -H,"h_vpm_pstat               0            0.0           0.0          0           0"
+BBBP,844,ending lparstat -H,"h_hfi_start_interface        0            0.0           0.0          0           0"
+BBBP,845,ending lparstat -H,"h_hfi_stop_interface        0            0.0           0.0          0           0"
+BBBP,846,ending lparstat -H,"h_hfi_query_interface        0            0.0           0.0          0           0"
+BBBP,847,ending lparstat -H,"h_hfi_query_window        0            0.0           0.0          0           0"
+BBBP,848,ending lparstat -H,"h_hfi_open_window         0            0.0           0.0          0           0"
+BBBP,849,ending lparstat -H,"h_hfi_close_window        0            0.0           0.0          0           0"
+BBBP,850,ending lparstat -H,"h_hfi_dump_info           0            0.0           0.0          0           0"
+BBBP,851,ending lparstat -H,"h_hfi_adapter_attach        0            0.0           0.0          0           0"
+BBBP,852,ending lparstat -H,"h_hfi_modify_rcxt         0            0.0           0.0          0           0"
+BBBP,853,ending lparstat -H,"h_hfi_route_info          0            0.0           0.0          0           0"
+BBBP,854,ending lparstat -H,"h_cau_write_index         0            0.0           0.0          0           0"
+BBBP,855,ending lparstat -H,"h_cau_read_index          0            0.0           0.0          0           0"
+BBBP,856,ending lparstat -H,"h_nmmu_start              0            0.0           0.0          0           0"
+BBBP,857,ending lparstat -H,"h_nmmu_stop               0            0.0           0.0          0           0"
+BBBP,858,ending lparstat -H,"h_nmmu_allocate_resource        0            0.0           0.0          0           0"
+BBBP,859,ending lparstat -H,"h_nmmu_free_resource        0            0.0           0.0          0           0"
+BBBP,860,ending lparstat -H,"h_nmmu_modify_resource        0            0.0           0.0          0           0"
+BBBP,861,ending lparstat -H,"h_confer_adjunct          0            0.0           0.0          0           0"
+BBBP,862,ending lparstat -H,"h_adjunct_mode            0            0.0           0.0          0           0"
+BBBP,863,ending lparstat -H,"h_get_ppp_x               0            0.0           0.0          0           0"
+BBBP,864,ending lparstat -H,"h_cop_op                  0            0.0           0.0          0           0"
+BBBP,865,ending lparstat -H,"h_stop_cop_op             0            0.0           0.0          0           0"
+BBBP,866,ending lparstat -H,"h_random                  0            0.0           0.0          0           0"
+BBBP,867,ending lparstat -H,"h_enter_decomp            0            0.0           0.0          0           0"
+BBBP,868,ending lparstat -H,"h_remove_comp             0            0.0           0.0          0           0"
+BBBP,869,ending lparstat -H,"h_put_tce_indirect        0            0.0           0.0          0           0"
+BBBP,870,ending lparstat -H,"n-------------------------------------------------------------------------------"
+BBBP,871,ending vmtune -a
+BBBP,872,ending emgr -l
+BBBP,873,ending uptime
+BBBP,874,ending uptime,"  02:45PM   up 2 days,   3:19,  1 user,  load average: 0.21, 0.21, 0.10"
